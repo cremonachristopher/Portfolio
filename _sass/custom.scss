@@ -24,6 +24,25 @@ html, body {
   border-bottom: 1px solid var(--border);
 }
 
+/* ---------- Image profil ronde et responsive ---------- */
+.profile-image {
+  width: 200px;             /* taille par défaut */
+  height: 200px;
+  border-radius: 50%;       /* rend l'image ronde */
+  object-fit: cover;        /* garde le ratio et couvre le carré */
+  display: block;
+  margin: 2rem auto;        /* centre l'image */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 3px solid var(--accent); /* bordure colorée */
+}
+
+@media (max-width: 768px) {
+  .profile-image {
+    width: 120px;
+    height: 120px;
+  }
+}
+
 .site-title { font-weight: 700; }
 .site-nav a {
   color: var(--text-muted);

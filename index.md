@@ -6,7 +6,9 @@ description: Portfolio de Christopher Cremona, développeur web.
 
 # Bienvenue sur mon Portfolio
 
-Je suis **Christopher Cremona**, développeur web.  
+Je suis **Christopher Cremona**, développeur web.
+![Portrait de Christopher](assets/images/photo.jpg)
+
 Voici mon portfolio professionnel.
 
 > 🎯 Objectif : devenir développeur web.

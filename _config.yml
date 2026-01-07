@@ -8,22 +8,5 @@ header_pages:
   - projects.md
   - skills.md
 
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
-  - skills.md
-
-minima:
-  social_links:
-    - title: "Envoyer un email"
-      icon: envelope
-      url: "mailto:christowow130@hotmail.fr"
-    - title: "GitHub Profile"
-      icon: github
-      url: "https://github.com/cremonachristopher"
-    - title: "LinkedIn Profile"
-      icon: linkedin
-      url: "https://www.linkedin.com/in/christopher-cremona-b614b7398/"
 plugins:
   - jekyll-seo-tag

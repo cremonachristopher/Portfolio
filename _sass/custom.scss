@@ -134,3 +134,23 @@ hr {
     padding: 2rem 1rem;
   }
 }
+
+/* ---------- Footer Contact ---------- */
+.site-footer {
+  background-color: var(--surface);
+}
+
+.site-footer .contact-list a {
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.site-footer .contact-list a:hover {
+  text-decoration: underline;
+}
+
+.footer-col-wrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

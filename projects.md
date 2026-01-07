@@ -1,13 +1,8 @@
 ---
-layout: page
+layout: default
 title: Projets
 ---
 
-## Portfolio personnel
-- Site statique avec Jekyll
-- Markdown uniquement
-- Déployé avec GitHub Pages
+# Mes projets
 
-## Projet académique
-- Description du projet
-- Technologies utilisées
+- Projet 1 : [site Klivio](https://cremonachristopher.github.io/projet_kliblio/)

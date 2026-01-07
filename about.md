@@ -1,11 +1,14 @@
 ---
-layout: page
+layout: default
 title: À propos
 ---
 
-## Qui suis-je ?
+# À propos de moi
 
-Je suis étudiant en informatique, intéressé par le développement web et logiciel.
+Développeur web passionné par les technologies modernes.  
+Je travaille sur des projets en **Jekyll, React, Node.js**.
 
-## Objectif professionnel
-Devenir développeur et continuer à apprendre de nouvelles technologies.
+## Compétences
+
+- HTML, CSS, JavaScript, PHP
+- Git & GitHub

@@ -1,9 +1,4 @@
-/* =====================================================
-   PORTFOLIO – STYLE GLOBAL PROFESSIONNEL
-   Compatible Jekyll + Minima + Markdown
-   ===================================================== */
-
-/* ---------- Variables ---------- */
+/* Variables */
 :root {
   --bg-gradient-start: #f8fafc;
   --bg-gradient-end: #eef2f7;
@@ -15,125 +10,51 @@
   --border: #e5e7eb;
 }
 
-/* ---------- Reset Minima ---------- */
+/* Global */
 html, body {
-  background: linear-gradient(
-    180deg,
-    var(--bg-gradient-start) 0%,
-    var(--bg-gradient-end) 100%
-  ) !important;
-
-  color: var(--text-main);
+  background: linear-gradient(180deg, var(--bg-gradient-start), var(--bg-gradient-end)) !important;
   font-family: "Inter", "Segoe UI", Roboto, sans-serif;
   line-height: 1.75;
   font-size: 16px;
+  color: var(--text-main);
 }
 
-/* ---------- Header ---------- */
+/* Header */
 .site-header {
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255,255,255,0.85);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
 }
+.site-title { font-weight: 700; }
+.site-nav a { color: var(--text-muted); margin-left: 1rem; }
+.site-nav a:hover { color: var(--accent); }
 
-.site-title {
-  font-weight: 700;
-  letter-spacing: -0.03em;
-}
-
-.site-nav a {
-  color: var(--text-muted);
-  font-weight: 500;
-  margin-left: 1rem;
-}
-
-.site-nav a:hover {
-  color: var(--accent);
-}
-
-/* ---------- Carte principale ---------- */
+/* Page content */
 .page-content {
   max-width: 900px;
   margin: 3.5rem auto;
   padding: 3rem 2.5rem;
-
   background-color: var(--card-bg) !important;
   border-radius: 20px;
-  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 40px 80px rgba(0,0,0,0.08);
 }
 
-/* ---------- Titres ---------- */
-h1, h2, h3 {
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  color: var(--text-main);
-}
-
-h1 {
-  font-size: 2.8rem;
-  margin-bottom: 1.2rem;
-}
-
+/* Headings */
+h1, h2, h3 { font-weight: 600; }
+h1 { font-size: 2.8rem; margin-bottom: 1.2rem; }
 h2 {
-  font-size: 1.7rem;
-  margin-top: 3.5rem;
-  margin-bottom: 1.2rem;
-  position: relative;
-  padding-bottom: 0.5rem;
+  font-size: 1.7rem; margin-top: 3.5rem; margin-bottom: 1.2rem; position: relative; padding-bottom: 0.5rem;
 }
+h2::after { content: ""; position: absolute; left: 0; bottom: 0; width: 56px; height: 3px; background: var(--accent); border-radius: 2px; }
+h3 { font-size: 1.25rem; margin-top: 2rem; }
 
-h2::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 56px;
-  height: 3px;
-  background-color: var(--accent);
-  border-radius: 2px;
-}
+/* Text & lists */
+p { color: var(--text-muted); margin-bottom: 1.4rem; }
+strong { font-weight: 600; color: var(--text-main); }
+ul { background-color: #f9fafb; padding: 1.2rem 1.6rem; border-radius: 14px; margin: 1.5rem 0; }
+li { margin-bottom: 0.5rem; }
 
-h3 {
-  font-size: 1.25rem;
-  margin-top: 2rem;
-}
-
-/* ---------- Texte ---------- */
-p {
-  color: var(--text-muted);
-  margin-bottom: 1.4rem;
-}
-
-/* ---------- Liens ---------- */
-a {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 500;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* ---------- Mise en valeur ---------- */
-strong {
-  color: var(--text-main);
-  font-weight: 600;
-}
-
-/* ---------- Listes (skills / projets) ---------- */
-ul {
-  background-color: #f9fafb;
-  padding: 1.2rem 1.6rem;
-  border-radius: 14px;
-  margin: 1.5rem 0;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
-/* ---------- Citations / Objectifs ---------- */
+/* Blockquote */
 blockquote {
   margin: 3rem 0;
   padding: 1.4rem 1.8rem;
@@ -144,22 +65,13 @@ blockquote {
   color: var(--text-main);
 }
 
-/* ---------- Séparateurs ---------- */
-hr {
-  border: none;
-  border-top: 1px solid var(--border);
-  margin: 4rem 0;
-}
-
-/* ---------- Footer ---------- */
+/* Footer */
 .site-footer {
-  background: transparent;
-  margin-top: 5rem;
   text-align: center;
-  color: var(--text-muted);
+  margin-top: 5rem;
   font-size: 0.9rem;
+  color: var(--text-muted);
 }
-
 .site-footer::before {
   content: "";
   display: block;
@@ -169,28 +81,12 @@ hr {
   margin: 0 auto 2rem;
   border-radius: 2px;
 }
+.site-footer a { color: var(--accent); font-weight: 500; }
+.site-footer a:hover { text-decoration: underline; }
 
-.site-footer a {
-  color: var(--accent);
-  font-weight: 500;
-}
-
-.site-footer a:hover {
-  text-decoration: underline;
-}
-
-/* ---------- Responsive ---------- */
+/* Responsive */
 @media (max-width: 768px) {
-  .page-content {
-    padding: 2.2rem 1.5rem;
-    margin: 2rem 1rem;
-  }
-
-  h1 {
-    font-size: 2.2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
+  .page-content { padding: 2.2rem 1.5rem; margin: 2rem 1rem; }
+  h1 { font-size: 2.2rem; }
+  h2 { font-size: 1.5rem; }
 }

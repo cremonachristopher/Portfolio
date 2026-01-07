@@ -1,11 +1,15 @@
 ---
-layout: home
+layout: default
 title: Accueil
 ---
 
-# Christopher Cremona
+# Bienvenue sur mon Portfolio
 
-Étudiant en informatique, passionné par le développement web.
+Je suis **Christopher Cremona**, développeur web.  
+Voici mon portfolio professionnel.
 
-Bienvenue sur mon portfolio professionnel.  
-Vous trouverez ici mon parcours, mes compétences et mes projets.
+> 🎯 Objectif : devenir développeur web.
+
+## Derniers projets
+
+- Projet 1 : [site Klivio](https://cremonachristopher.github.io/projet_kliblio/)

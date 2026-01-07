@@ -1,6 +1,8 @@
-title: Christopher Cremona
-description: Portfolio
-theme: minima
+title: Portfolio Christopher Cremona
+description: Portfolio personnel et professionnel
+email: christowow130@hotmail.fr
+github_username: cremonachristopher
+linkedin_username: christopher-cremona-b614b7398
 
 header_pages:
   - index.md
@@ -16,12 +18,12 @@ header_pages:
 
 minima:
   social_links:
-    - title: "Email"
+    - title: "Envoyer un email"
       icon: envelope
       url: "mailto:christowow130@hotmail.fr"
-    - title: "GitHub"
+    - title: "GitHub Profile"
       icon: github
       url: "https://github.com/cremonachristopher"
-    - title: "LinkedIn"
+    - title: "LinkedIn Profile"
       icon: linkedin
       url: "https://www.linkedin.com/in/christopher-cremona-b614b7398/"

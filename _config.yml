@@ -1,0 +1,10 @@
+title: Christopher Cremona
+description: Portfolio
+theme: minima
+
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - skills.md
+  - contact.md

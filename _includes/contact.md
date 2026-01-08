@@ -1,7 +1,10 @@
 Vous pouvez me contacter via :
 
-- Email : [christopher.cremona@email.com](mailto:christopher.cremona@email.com)
-- GitHub : https://github.com/cremonachristopher
-- LinkedIn : https://www.linkedin.com
+Email : [christopher.cremona@email.com](mailto:christowow130@hotmail.fr)
 
-Je suis ouvert aux opportunités professionnelles, stages et collaborations.
+GitHub : https://github.com/cremonachristopher
+
+LinkedIn : https://www.linkedin.com/in/christopher-cremona-b614b7398/
+
+Je suis disponible pour :
+une alternance
